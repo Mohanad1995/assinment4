@@ -5,7 +5,7 @@ class CustomDrawer extends StatefulWidget {
 }
 
 class _CustomDrawerState extends State<CustomDrawer> {
-  int val;
+  int val=2;
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -64,7 +64,13 @@ class _CustomDrawerState extends State<CustomDrawer> {
             ),
 
             CustomDivider(),
-            CutomRowWidget(Icons.mail, 'Messages'),
+            GestureDetector(
+              onTap: (){
+                Navigator.pushNamed(context, 'Masseges');
+              },
+              child:  CutomRowWidget(Icons.mail, 'Messages'),
+            ),
+
             CustomDivider(),
             GestureDetector(
               onTap: (){

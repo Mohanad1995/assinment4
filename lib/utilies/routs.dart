@@ -10,6 +10,7 @@ import 'package:agricultural_market/ui/pages/basic_page/splach.dart';
 import 'package:agricultural_market/ui/pages/basic_page/terms_conditions.dart';
 import 'package:agricultural_market/ui/pages/details_product.dart';
 import 'package:agricultural_market/ui/pages/edit_stores.dart';
+import 'package:agricultural_market/ui/pages/massege.dart';
 import 'package:agricultural_market/ui/pages/parts.dart';
 import 'package:agricultural_market/ui/pages/plant_page.dart';
 import 'package:agricultural_market/ui/pages/stores.dart';
@@ -28,4 +29,5 @@ Map<String,WidgetBuilder> routs= {
   'CallUS':(context)=>CallUS(),
   'TermsConditions':(context)=>TermsConditions(),
   'AddAdvertisement':(context)=>AddAdvertisement(),
+  'Masseges':(context)=>Masseges(),
 };
