@@ -12,7 +12,7 @@ class _StoresState extends State<Stores> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar('Stores'),
-      drawer: CustomDrawer(),
+      endDrawer: CustomDrawer(),
       body:ListView.builder(
         itemCount: stores.length,
           itemBuilder:(context,index){

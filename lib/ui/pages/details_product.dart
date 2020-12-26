@@ -72,7 +72,7 @@ class _DetailsProductState extends State<DetailsProduct> {
           BottomNavigationBarItem(icon: Icon(Icons.share,color: Colors.greenAccent,),label: ''),
         ],
       ),
-      drawer: CustomDrawer(),
+      endDrawer: CustomDrawer(),
     );
   }
 }

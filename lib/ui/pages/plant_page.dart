@@ -13,7 +13,7 @@ class _Plant_DetailsState extends State<Plant_Details> {
     return Scaffold(
       backgroundColor:Colors.grey.shade200,
       appBar: CustomAppBar('Plant Details'),
-      drawer: CustomDrawer(),
+      endDrawer: CustomDrawer(),
       body:Padding(
         padding: const EdgeInsets.only(top: 18),
         child: GridView.count(

@@ -13,7 +13,7 @@ class _EditStoresState extends State<EditStores> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar('Edit Stores'),
-      drawer: CustomDrawer(),
+      endDrawer: CustomDrawer(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(12.0),

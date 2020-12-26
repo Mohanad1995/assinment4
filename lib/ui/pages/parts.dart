@@ -17,7 +17,7 @@ class _PartsState extends State<Parts> {
     return Scaffold(
       backgroundColor: Colors.grey.shade200,
       appBar: CustomAppBar('Parts'),
-        drawer: CustomDrawer(),
+        endDrawer: CustomDrawer(),
       body:Stack(
         children: [
          Padding(
